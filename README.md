@@ -1,4 +1,4 @@
-# MyZip - File Compression & Archiving System
+# File-Compression-and-Decompression-using-Lossless-Algorithms
 
 An academic project demonstrating Data Structures & Algorithms concepts through a practical file compression utility implementing multiple compression algorithms.
 
@@ -89,13 +89,6 @@ The script will automatically clean, compile, and launch the GUI.
 
 ---
 
-## 📖 Usage
-
-1. Launch GUI using the script above
-2. **Compress**: Click "Compress" or drag files → Select output location → System auto-selects algorithm per file
-3. **Extract**: Click "Extract" or drag `.myzip` archive → Choose destination → Auto-verifies integrity
-
----
 
 ## 📊 Performance Comparison
 
@@ -144,44 +137,3 @@ java -cp "build/classes;lib/*" com.myzip.gui.CompressionGUI
 ```
 
 ---
-
-## 🏗️ Project Structure
-
-```
-dsa-el/
-├── src/main/java/com/myzip/
-│   ├── algorithms/         # LZW, RLE, Huffman, LZ77, DEFLATE
-│   ├── core/               # ArchiveManager, DeduplicationManager, FileTypeDetector
-│   ├── hashing/            # SHA-256 utilities
-│   ├── utils/              # Bit I/O streams
-│   └── gui/                # Swing UI
-├── scripts/                # run-gui.sh, run-gui.bat, build.sh, clean.sh
-├── lib/                    # flatlaf-3.4.1.jar
-└── docs/                   # Additional documentation
-```
-
----
-
-## 🐛 Troubleshooting
-
-- **`javac: command not found`**: Install JDK 8+ and add to PATH
-- **Compilation errors**: Run clean script first (`./scripts/clean.sh` or `scripts\clean.bat`)
-- **GUI doesn't launch**: Ensure desktop environment available (not SSH without X11)
-
----
-
-## 📚 Additional Documentation
-
-See `docs/` directory for detailed algorithm analysis and technical documentation.
-
----
-
-## 📄 License
-
-Created for academic purposes. Free to use for educational and non-commercial purposes.
-
----
-
-**Note**: This is an academic demonstration. For production use, prefer `java.util.zip` or Apache Commons Compress.
-
-**Created as part of a Data Structures & Algorithms course project.**
