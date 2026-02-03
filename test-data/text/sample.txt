@@ -1,0 +1,16 @@
+This is a sample text file for testing LZW compression algorithm.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog.
+
+This file contains repeated patterns which should compress well with LZW.
+Text compression is most effective when there are repeated sequences.
+Text compression is most effective when there are repeated sequences.
+Text compression is most effective when there are repeated sequences.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Testing testing 123 testing testing 123 testing testing 123.
+AAAAAAAAAA BBBBBBBBBB CCCCCCCCCC DDDDDDDDDD EEEEEEEEEE.
