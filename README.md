@@ -6,15 +6,6 @@ An academic project demonstrating Data Structures & Algorithms concepts through 
 
 MyZip is a Java-based compression system that implements **five different compression algorithms**, each optimized for specific file types. The system automatically selects the best algorithm based on file characteristics, featuring hash-based deduplication and integrity verification.
 
-## 📚 Documentation for Judges/Presentations
-
-**Complete technical documentation for demonstrating this project:**
-
-- **[ALGORITHMS_AND_DATA_STRUCTURES.md](ALGORITHMS_AND_DATA_STRUCTURES.md)** - Comprehensive step-by-step explanation of all algorithms (LZW, RLE, Huffman, LZ77, SHA-256, Deduplication) and data structures (HashMap, ArrayList, PriorityQueue, Binary Tree, HashSet, Sliding Window, BitStream) with examples
-- **[PRESENTATION_GUIDE.md](PRESENTATION_GUIDE.md)** - Quick reference guide for presentations with demo scripts, common judge questions & answers, and code highlights
-- **[VISUAL_DIAGRAMS.md](VISUAL_DIAGRAMS.md)** - ASCII art diagrams and visualizations for slides and whiteboard explanations
-
----
 
 ## 🔬 Compression Algorithms
 
